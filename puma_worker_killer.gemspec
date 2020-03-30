@@ -24,5 +24,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "wait_for_it", "~> 0.1"
   gem.add_development_dependency "rake",  "~> 10.1"
   gem.add_development_dependency "test-unit",  ">= 0"
-
+  gem.add_development_dependency "rubocop", "~> 0.80.1"
+  gem.add_development_dependency "rubocop-performance", "~> 1.5.2"
 end
