@@ -1,5 +1,6 @@
 ## Master
 
+- Add rubocop configuration, correct some offences #84
 - Simplify workers memory calculation in PumaMemory‘s `get_total` method #81
 
 ## 0.1.1
