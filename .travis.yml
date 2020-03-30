@@ -10,7 +10,10 @@ rvm:
 before_install:
   - gem install bundler -v 1.12.5
 
-matrix:
+jobs:
+  include:
+    - rvm: 2.6.5
+      script: bundle exec rubocop
   allow_failures:
     - rvm: ruby-head
     - rvm: rbx
